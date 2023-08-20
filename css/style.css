@@ -1,0 +1,128 @@
+body {
+  background-image: url('https://img.freepik.com/free-vector/cinema-stage-theater-with-row-of-red-chairs_1017-36805.jpg');
+  background-size: 1520px 800px;
+  background-position: top center;
+}
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: rgb(92, 5, 5);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  margin-top: -10px;
+  margin-left: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  animation: hideSplashScreen 0.5s ease-in-out forwards;
+  animation-delay: 0.5s;
+}
+
+#movie_screen {
+  width: 1145px;
+  margin-left: 176px;
+  height: 472px;
+  margin-top: 68px;
+  border-radius: 0px;
+}
+
+div {
+  background-color: rgb(219, 228, 235, 0.5);
+  border-radius: 10px;
+  padding: 5px;
+  margin: 3px;
+}
+#clockName {
+  display: flex;
+  justify-content: space-around;
+}
+.top-adventures {
+  display: flex;
+  overflow-x: scroll;
+  margin: 0px 5px;
+}
+.top-adventures li {
+  list-style-type: none;
+}
+.top-adventures-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 5%;
+  margin-right: 10px;
+  opacity: 0.8;
+}
+
+.deleteButton {
+  border: none;
+}
+#greeting {
+  margin-right: -530px;
+  margin-left: -220px;
+}
+#logOut {
+  margin-right: -230px;
+  height: 27px;
+  margin-top: 32px;
+}
+#clock {
+  margin-left: -240px;
+  margin-top: 30px;
+}
+#quote span {
+  font-weight: 1000;
+  font-size: 1.3em;
+  margin-left: 20px;
+}
+#weather {
+  font-weight: 1000;
+  font-size: 1.3em;
+  padding-left: 20px;
+}
+#loginDiv {
+  background-color: rgb(2, 2, 2);
+  margin: 200px;
+  margin-left: 189px;
+  margin-top: 73px;
+  padding: 100px 300px;
+  padding-left: 420px;
+  width: 421px;
+  height: 269px;
+  border-radius: 0px;
+}
+#login-form input {
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+#todo-list {
+  display: flex;
+  overflow-x: scroll;
+  margin: 0px 5px;
+}
+#todo-list li {
+  margin-left: 50px;
+  font-weight: 600;
+  height: 65px;
+}
+#todo-list button {
+  margin-left: 5px;
+}
+#todo-form input {
+  width: 190px;
+  margin-left: 452.5px;
+  margin-bottom: 5px;
+}
+#todo-list li:first-child {
+  margin-left: 5px;
+}
